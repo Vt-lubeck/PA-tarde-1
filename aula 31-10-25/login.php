@@ -10,9 +10,9 @@
     <div class="container">
       <h1>LOGIN</h1>
 
-      <input type="text" placeholder="Informe seu usúario" id="usuario">
+      <input type="text" placeholder="Informe seu usúario" id="usuarioL">
 
-      <input type="password" placeholder="Informe sua senha" id="senha">
+      <input type="password" placeholder="Informe sua senha" id="senhaL">
 
       <div class="texto1">
       <button onclick="login()">Login</button>
