@@ -10,7 +10,7 @@
     <div class="caixa">
 
       <h1>CRIE SUA CONTA</h1>
-      <form action="process.php" method="POST">
+      <form action="process_cadastro.php" method="POST">
 
       <input type="text" placeholder="Usuário" id="usuario" name="usuario">
 
@@ -30,7 +30,7 @@
       <h2>Bem - vindo de volta</h2>
       <h3>Acesse sua conta agora</h3>   
 
-      <button type="submit" onclick="location.href='login.php'">Login</button>
+      <button type="submit">Login</button>
 
     </div>
  

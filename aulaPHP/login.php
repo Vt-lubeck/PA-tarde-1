@@ -9,13 +9,16 @@
 <body>
     <div class="container">
       <h1>LOGIN</h1>
+      <form action="process_login.php" method="POST">
 
-      <input type="text" placeholder="Informe seu usúario" id="usuarioL">
+      <input type="text" placeholder="Informe seu usúario" id="usuarioL" name="usuario">
 
-      <input type="password" placeholder="Informe sua senha" id="senhaL">
+      <input type="password" placeholder="Informe sua senha" id="senhaL" name="senha">
 
       <div class="texto1">
-      <button onclick="login()">Login</button>
+      <button type="submit">Login</button>
+      
+      </form>
       </div>
   
     </div>
