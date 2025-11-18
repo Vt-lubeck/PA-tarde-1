@@ -1,0 +1,11 @@
+CREATE DATABASE site;
+
+USE site;
+
+CREATE TABLE usuario(
+	id_user INT PRIMARY KEY AUTO_INCREMENT,
+	senha VARCHAR(20) NOT NULL, 
+    usuario VARCHAR(120) NOT NULL
+);
+
+SELECT * FROM usuario
