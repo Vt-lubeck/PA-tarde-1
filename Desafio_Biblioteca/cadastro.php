@@ -5,11 +5,11 @@
     <div class="container">
 
       <h1><b>Cadastre o Livro</b></h1>
-      <form action="processo_cadastro.php" method="POST"> 
+      <form action="process_cadastro.php" method="POST"> 
       
       <div class="Inputs">
       <br>
-       <label for="nome" class="label">Título do livro</label>
+       <label for="titulo" class="label">Título do livro</label>
        <input type="text" name="titulo" id="titulo" class="input_cadastro">
       </div>
 
