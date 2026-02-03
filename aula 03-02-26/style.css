@@ -1,0 +1,63 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.geral {
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 550px;
+    height: 600px;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 0px 4px 12px;
+    background-color: #2563EB;
+}
+
+.caixa{
+    width: 300px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 20px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 4px 12px;
+    background-image: url("https://conteudo.imguol.com.br/c/esporte/7d/2022/03/03/o-tecnico-abel-ferreira-postou-selfie-apos-o-palmeiras-conquistar-a-recopa-1646324645465_v2_4x3.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.texto1{
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+}
+
+.texto2{
+    color: white;
+}
+
+
+input {
+    padding: 16px;
+    font-family: 'Segoe UI';
+    font-size: larger;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #F5F5F5;
+}
