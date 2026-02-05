@@ -7,7 +7,7 @@
         protected $tipo;
         protected $valorgasto;
         protected $senha;
-        protected $cadastro = false;
+        protected $cadastroc = false;
         protected $premium = false;
         protected $desconto = 0.0;
         
@@ -28,13 +28,13 @@
             return "";
         }else{
             return "Cadastro válido";
-            $cadastro = true ;
+            $cadastroc = true ;
         }
     }
     
     public function infocliente() 
     {
-        if ($cadastro = true){
+        if ($cadastroc = true){
             echo "<pre>";
             echo "CPF: {$this->cpf} ";
             echo "Nome: {$this->nome} ";
@@ -77,6 +77,19 @@
 }
 
     class Produto{
+        protected $preco;
+        protected $nome;
+        protected $estoque;
+
+    public function infoproduto() 
+    {
+            echo "<pre>";
+            echo "Preço: R${$this->preco} ";
+            echo "Nome: {$this->nome} ";
+            echo "Email: {$this->estoque} ";
+    }
+    
+    }
 
 }
 
